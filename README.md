@@ -8,3 +8,6 @@ Part A: Visual Representation
 4. Alignment: Checkbox aligned top with description
 5. Choice: on/off switch
 6. Placement: Continue button on top
+
+Part B: Styling
+1. question-2.html
