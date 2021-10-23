@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Question B4</title>
+  <meta name="description" content="Styling">
+  <meta name="author" content="">
+
+
+</head>
+
+<style>
+	body{
+		margin: 0;
+		text-align: center;
+		font-family: Aria, sans-serif;
+		color: white;
+	}
+	.wrapper{
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.header{
+		height: 80px;
+		background: #1BA1FC;
+	}
+	
+	.content{
+		width: 300px;
+		height: 350px;
+		margin: 20px auto;
+		background-color: #fff;
+		border: solid 2px gray;
+		padding: 30px;
+		display: flex;
+		align-content: stretch;
+		flex-direction: column;
+	}
+	
+	.box--container{
+		display: flex;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	
+	.box{
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: blue;
+		border: solid 2px gray;
+	}
+	
+	.content>.box{
+		align-self: flex-end;
+		margin-top: auto;
+	}
+	
+	.footer{
+		height: 100px;
+		background-color: #747474;
+		margin-top: auto;
+	}
+</style>
+
+<body>
+  <div class="wrapper">
+	<div class="header">
+		Header
+	</div>
+	<div class="content">
+		<div class="box--container">
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+		</div>
+		<div class="box"></div>
+	</div>
+	<div class="footer">
+		Footer
+	</div>
+  </div>
+</body>
+</html>
