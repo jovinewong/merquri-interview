@@ -10,4 +10,4 @@ Part A: Visual Representation
 6. Placement: Continue button on top
 
 Part B: Styling
-1. question-2.html
+1. 
