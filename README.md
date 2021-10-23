@@ -14,6 +14,7 @@ Part B: Styling
 2. https://github.com/jovinewong/merquri-interview/blob/main/question-b-2-3.html
 3. https://github.com/jovinewong/merquri-interview/blob/main/question-b-2-3.html
 4. https://github.com/jovinewong/merquri-interview/blob/main/question-b-4.html
+   
    Three way I'd use to center align a box element:
    a. Flexbox
    b. Position absolute
