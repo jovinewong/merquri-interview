@@ -27,3 +27,19 @@ Part C
       return (e.age > 28)
    });
    
+2. Total age
+
+   const sum = newList.reduce((total, e) => total + e.age, 0);
+   
+3. New array
+
+   let i,
+      newArray = [];
+
+    nameList.map((ele, i) => {
+      if(nameList[i].occupation)
+        newArray.push(nameList[i].name + "-" + nameList[i].occupation);
+      else
+        newArray.push(nameList[i].name);
+    });
+   
