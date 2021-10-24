@@ -20,3 +20,10 @@ Part B: Styling
    b. Position absolute
    c. Margin 0 auto
    
+Part C
+1. New array with age > 28
+
+   const newList = nameList.filter((e) => {
+      return (e.age > 28)
+   });
+   
